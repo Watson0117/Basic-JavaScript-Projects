@@ -28,3 +28,13 @@ function MFF(){   //this is the start of the function it defins it an names it
     document.getElementById("Green_Text") .innerHTML = result;//putting the value of result into html element with "Green_Text" id
     //It is what is put into the button tag
 }  //This is the end of the function
+
+function bigImg(x) {
+    x.style.height = "100px";
+    x.style.width = "100px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
