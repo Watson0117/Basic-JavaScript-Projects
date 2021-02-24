@@ -15,7 +15,8 @@ function my_Dictionary() {// I used the example that was in the lesson
     document.getElementById("so").innerHTML = "The animal goes  " + Animal.Sound;
 }
 
-
+document.write(typeof "word");
+document.write(typeof 3);
 
 
 //var X = 5;
