@@ -22,3 +22,6 @@ function CF() {//this is my concatenate function
     document.getElementById("CON") .innerHTML = SEN;//I give it the id CON that will be used in the html
 }
 
+function FF() {
+    document.getElementById("H").innerHTML = "It worked!";
+}
