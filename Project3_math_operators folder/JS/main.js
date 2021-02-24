@@ -63,6 +63,18 @@ function PIE() {// I picked PIE as the name of the function. seemed right.
     //of my own guess where thats from
 }
 
+function my_Dictionary() {
+    var Animal = {
+        Species: "Dog",
+        Color: "Blue",
+        Breed: "Lab",
+        Age:5,
+        Sound:"Bork"
+    };
+    document.getElementById("Dictionary").innerHTML = "The dog os a "+ Animal.Breed;
+}
+
+
 //var X = 5;
 //X++;
 //document.write (X);
