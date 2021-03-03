@@ -1,4 +1,3 @@
-//var SP = "<br>"//This line is left over from the document.write exercises i needed something to space stuff out to make it more readable.
 
 function full() {
     var part_1 = "I have ";
@@ -52,13 +51,4 @@ function VOF() {//The valueOf() method returns the primitive value of a String o
     var GG = "Basic value!";
     var GH = GG.valueOf();//result = A String, representing the primitive value of a string
     document.getElementById("VALOF").innerHTML = GH;
-}
-
-function countit() {
-    var Digit = "";
-    var X = 1;
-    while (X < 11) {
-        Digit += "<br>" = X;
-    }
-    document.getElementById ("count").innerHTML = Digit;
 }
